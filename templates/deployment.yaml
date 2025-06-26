@@ -25,7 +25,7 @@ spec:
             - sh
             - -c
             - |
-              until nc -z postgres-0.postgres-headless.test.svc.cluster.local 5432; do
+              until nc -z postgres-0.postgres-headless.default.svc.cluster.local 5432; do
                 echo "Waiting for Postgres TCP connection..."
                 sleep 3
               done

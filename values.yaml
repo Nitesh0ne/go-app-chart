@@ -29,4 +29,4 @@ postgres:
     user: testuser
     password: "1234"
     database: testdb
-  dsnHost: postgres-0.postgres-headless.prod.svc.cluster.local
+  dsnHost: postgres-0.postgres-headless.default.svc.cluster.local
