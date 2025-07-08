@@ -35,4 +35,4 @@ postgres:
 
 ingress:
   enabled: true
-  host: "k8s.niteshnepali.com.np"  # Replace with your actual domain or IP
+  host: "www.k8s.niteshnepali.com.np"  # Replace with your actual domain or IP
