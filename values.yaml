@@ -30,3 +30,9 @@ postgres:
     password: "1234"
     database: testdb
   dsnHost: postgres-0.postgres-headless.default.svc.cluster.local
+
+
+
+ingress:
+  enabled: true
+  host: "k8s.niteshnepali.com.np"  # Replace with your actual domain or IP
